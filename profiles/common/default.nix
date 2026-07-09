@@ -34,7 +34,7 @@
     pkgs.thunderbird
     pkgs.bitwarden-desktop
     pkgs.rsync
-    pkgs.unrar
+    pkgs.p7zip
   ];
   
   home.persistence.link = {

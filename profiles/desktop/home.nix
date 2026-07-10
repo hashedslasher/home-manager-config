@@ -78,6 +78,7 @@
     pkgs.ltspice
     pkgs.matlab
     pkgs.foliate
+    pkgs-stable.spyder
 
     #Utils
     pkgs.qjackctl

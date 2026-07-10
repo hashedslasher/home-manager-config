@@ -15,6 +15,7 @@
       dir = [
         ".config/gtk-3.0"
         ".config/gtk-4.0"
+        ".themes"
       ];
       file = [
         ".gtkrc-2.0"

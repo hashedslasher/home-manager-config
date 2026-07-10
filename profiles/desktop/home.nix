@@ -78,8 +78,15 @@
     pkgs.ltspice
     pkgs.matlab
     pkgs.foliate
-    pkgs.spyder
-
+    (pkgs.python3.withPackages (ps: [
+      ps.spyder
+      ps.spyder-kernels
+      
+      # Explicitly prefix any other data science libraries you need:
+      ps.numpy
+      ps.pandas
+      ps.matplotlib
+    ]))
     #Utils
     pkgs.qjackctl
     pkgs.swh_lv2

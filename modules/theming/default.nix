@@ -16,6 +16,7 @@
         ".config/gtk-3.0"
         ".config/gtk-4.0"
         ".themes"
+        ".icons"
       ];
       file = [
         ".gtkrc-2.0"

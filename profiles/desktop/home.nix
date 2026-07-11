@@ -81,8 +81,7 @@
     (pkgs.python3.withPackages (ps: [
       ps.spyder
       ps.spyder-kernels
-      
-      # Explicitly prefix any other data science libraries you need:
+      ps.jedi 
       ps.numpy
       ps.pandas
       ps.matplotlib

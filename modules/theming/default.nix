@@ -8,6 +8,7 @@
     pkgs-unstable.catppuccin-cursors
     pkgs-unstable.banana-cursor
     pkgs-unstable.bibata-cursors
+    pkgs-unstable.gruvbox-material-gtk-theme
   ];
 
   home.persistence = {

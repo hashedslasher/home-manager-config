@@ -1,12 +1,11 @@
 local config = function()
-require('onedark').setup {
+require('gruvbox-material').setup {
     style = 'dark'
 }
-require('onedark').load()
 end
 
 return {
-  'navarasu/onedark.nvim',
+  'f4z3r/gruvbox-material.nvim',
   priority = 999,
   lazy = false,
   config = config

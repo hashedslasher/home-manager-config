@@ -78,7 +78,7 @@
     pkgs.ltspice
     pkgs.matlab
     pkgs.foliate
-    (pkgs.python3.withPackages (ps: [
+    (pkgs-stable.python3.withPackages (ps: [
       ps.spyder
       ps.spyder-kernels
       ps.jedi 

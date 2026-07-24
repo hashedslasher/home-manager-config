@@ -31,6 +31,10 @@
       url = "github:mierak/rmpc/master";
     };
 
+    zennotes = {
+      url = "github:ZenNotes/zennotes";
+    };
+
     RadarOmega.url = ./pkgs/RadarOmega;
     LTspice.url = ./pkgs/LTspice;
     feedBack.url = ./pkgs/feedBack;

@@ -5,6 +5,7 @@
   pkgs-stable,
   lib,
   nixpkgs,
+  inputs,
   ...
 }:
 
@@ -86,6 +87,7 @@
       ps.pandas
       ps.matplotlib
     ]))
+    inputs.zennotes.packages.${pkgs.system}.default
     #Utils
     pkgs.qjackctl
     pkgs.swh_lv2

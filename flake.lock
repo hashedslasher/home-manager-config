@@ -343,6 +343,22 @@
         "type": "github"
       }
     },
+    "nixpkgs_6": {
+      "locked": {
+        "lastModified": 1781074563,
+        "narHash": "sha256-md8WlXOlfnIeHeOScMTTHFyf2d6iaTwPl2apR5EQ3P4=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "9ae611a455b90cf061d8f332b977e387bda8e1ca",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "rmpc": {
       "inputs": {
         "crane": "crane",
@@ -376,7 +392,8 @@
         "nixpkgs": "nixpkgs_4",
         "nixpkgs-unstable": "nixpkgs-unstable",
         "rmpc": "rmpc",
-        "steam-config-nix": "steam-config-nix"
+        "steam-config-nix": "steam-config-nix",
+        "zennotes": "zennotes"
       }
     },
     "steam-config-nix": {
@@ -488,6 +505,24 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "zennotes": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_6"
+      },
+      "locked": {
+        "lastModified": 1784837871,
+        "narHash": "sha256-CP8yCkLcNVoXdadmF1KalY840svL0tg0Xzpd6//mato=",
+        "owner": "ZenNotes",
+        "repo": "zennotes",
+        "rev": "9e73929d1cfa93382f1277723b22523144fcf915",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ZenNotes",
+        "repo": "zennotes",
         "type": "github"
       }
     }

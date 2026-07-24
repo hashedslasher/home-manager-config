@@ -31,7 +31,7 @@
 
   home.packages = [
     pkgs.rmpc
-    pkgs-stable.guitarix
+    pkgs.guitarix
     pkgs.qbz
     pkgs.audacity
     pkgs.spek

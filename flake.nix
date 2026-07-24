@@ -32,7 +32,7 @@
     };
 
     zennotes = {
-      url = "github:ZenNotes/zennotes";
+      url = "github:ZenNotes/zennotes/v2.14.0";
     };
 
     RadarOmega.url = ./pkgs/RadarOmega;

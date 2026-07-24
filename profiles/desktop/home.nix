@@ -43,6 +43,7 @@
       "school"
       "scripts"
       "videos"
+      "notes"
     ];
   };
 

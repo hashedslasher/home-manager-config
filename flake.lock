@@ -513,16 +513,16 @@
         "nixpkgs": "nixpkgs_6"
       },
       "locked": {
-        "lastModified": 1784326940,
-        "narHash": "sha256-SYHReGi8CpElUPetTrWFsa1k8LYdp3Ffo5JFirAPGG4=",
+        "lastModified": 1784062709,
+        "narHash": "sha256-TZhyZIe86aDLU5yZGaeWVNGrgUuAqlO9m4dCVGEYKkk=",
         "owner": "ZenNotes",
         "repo": "zennotes",
-        "rev": "8025f63745e631618b3ba081135e58c8d25d20b3",
+        "rev": "17456d906dec044215582fe55a9e73d270cc5897",
         "type": "github"
       },
       "original": {
         "owner": "ZenNotes",
-        "ref": "v2.14.0",
+        "ref": "v2.13.2",
         "repo": "zennotes",
         "type": "github"
       }

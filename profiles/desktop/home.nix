@@ -80,14 +80,7 @@
     pkgs.ltspice
     pkgs.matlab
     pkgs.foliate
-    (pkgs-stable.python3.withPackages (ps: [
-      ps.spyder
-      ps.spyder-kernels
-      ps.jedi 
-      ps.numpy
-      ps.pandas
-      ps.matplotlib
-    ]))
+    pkgs.spyder
     inputs.zennotes.packages.${pkgs.system}.default
     #Utils
     pkgs.qjackctl

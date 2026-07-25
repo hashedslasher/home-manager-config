@@ -66,6 +66,7 @@
         feedBack.overlays.default
 
         (import ./overlays/rmpc.nix)
+        (import ./overlays/spyder.nix)
       ];
 
       pkgs-stable = import nixpkgs {

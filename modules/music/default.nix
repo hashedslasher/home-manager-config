@@ -35,7 +35,7 @@
     pkgs.qbz
     pkgs.audacity
     pkgs.spek
-    #pkgs.whipper
+    pkgs.whipper
     pkgs.carla
     pkgs.kid3
   ];

@@ -13,7 +13,7 @@
 
   home.packages = [
     pkgs.prismlauncher
-    #pkgs.rpcs3
+    pkgs.rpcs3
     pkgs.retroarch
     pkgs.feedback-desktop
   ];

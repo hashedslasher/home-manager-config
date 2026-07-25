@@ -13,6 +13,9 @@
       mx-bikes = {
         id = 655500;
         launchOptions = {
+          wrappers = [
+            "PROTON_ENABLE_WAYLAND=1"
+          ];
           preHook = ''
             rm -rf ~/.steam/steam/steamapps/compatdata/655500/pfx/drive_c/users/steamuser/Documents/PiBoSo/'MX Bikes'/mods
 

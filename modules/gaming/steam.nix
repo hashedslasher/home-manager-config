@@ -28,37 +28,6 @@
           '';
         };
       };
-      #LD_PRELOAD=/usr/lib32/librsshim.so:/usr/lib32/libjack.so
-      rocksmith = {
-        id = 221680;
-        launchOptions = {
-          wrappers = [
-            "PIPEWIRE_LATENCY=256/48000"
-          ];
-          preHook = ''
-              rm -rf ~/.steam/steam/steamapps/common/Proton\ -\ Experimental/files/lib/wine/x86_64-windows/wineasio64.dll
-              cp /mnt/external-hdd/Games/PC/Rocksmith/lib/wineasio64.dll ~/.steam/steam/steamapps/common/Proton\ -\ Experimental/files/lib/wine/x86_64-windows/wineasio64.dll
-
-              rm -rf ~/.steam/steam/steamapps/common/Proton\ -\ Experimental/files/lib/wine/x86_64-unix/wineasio64.dll.so
-              cp /mnt/external-hdd/Games/PC/Rocksmith/lib/wineasio64.dll ~/.steam/steam/steamapps/common/Proton\ -\ Experimental/files/lib/wine/x86_64-unix/wineasio64.dll.so
-
-              rm -rf ~/.steam/steam/steamapps/common/Proton\ -\ Experimental/files/lib/wine/i386-unix/wineasio32.dll.so
-              cp /mnt/external-hdd/Games/PC/Rocksmith/lib/wineasio32.dll.so ~/.steam/steam/steamapps/common/Proton\ -\ Experimental/files/lib/wine/i386-unix/wineasio32.dll.so
-
-              rm -rf ~/.steam/steam/steamapps/common/Proton\ -\ Experimental/files/lib/wine/i386-windows/wineasio32.dll
-              cp /mnt/external-hdd/Games/PC/Rocksmith/lib/wineasio32.dll ~/.steam/steam/steamapps/common/Proton\ -\ Experimental/files/lib/wine/i386-windows/wineasio32.dll
-
-            rm -rf ~/.steam/steam/steamapps/common/Rocksmith2014
-            ln -sfn /mnt/external-hdd/Games/PC/Rocksmith/Rocksmith2014 ~/.steam/steam/steamapps/common/Rocksmith2014
-
-            rm -rf ~/.steam/steam/steamapps/compatdata/221680
-            ln -sfn /mnt/external-hdd/Games/GameState/Prefix/221680 ~/.steam/steam/steamapps/compatdata/221680
-
-            ln -sfn ~/GameData/Rocksmith/dlc ~/.steam/steam/steamapps/common/Rocksmith2014/dlc/cdlc
-
-          '';
-        };
-      };
     };
     nonSteamApps = {
       MW3 = {

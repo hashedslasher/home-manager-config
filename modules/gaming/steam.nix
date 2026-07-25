@@ -8,7 +8,7 @@
 {
   programs.steam.config = {
     enable = true;
-    closeSteam = true;
+    onSteamRunning = "force-close";
     apps = {
       mx-bikes = {
         id = 655500;

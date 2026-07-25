@@ -80,7 +80,7 @@
     pkgs.ltspice
     pkgs.matlab
     pkgs.foliate
-    pkgs.spyder
+    pkgs-stable.spyder
     inputs.zennotes.packages.${pkgs.system}.default
     #Utils
     pkgs.qjackctl

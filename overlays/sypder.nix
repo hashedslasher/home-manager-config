@@ -1,7 +1,5 @@
 final: prev: {
-  # We overwrite the default 'spyder' package with our custom wrapped version
   spyder = let
-    # 1. Bundle Spyder, the kernels, and all plugins/data science libs in one environment
     spyderEnv = prev.python3.withPackages (ps: with ps; [
       spyder
       spyder-kernels
@@ -16,7 +14,6 @@ final: prev: {
       numpy
       scipy
       
-      # Assuming inputs is available in your overlay scope:
       # (inputs.yannix.packages.${prev.system}."python.spyder-vim".override { python3 = prev.python3; })
     ]);
   in prev.symlinkJoin {

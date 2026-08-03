@@ -56,6 +56,7 @@
       enable = true;
       gui.enable = true;
     };
+    nh.enable = true;
     udiskie.enable = true;
     wezterm.enable = true;
     zathura.enable = true;

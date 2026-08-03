@@ -6,6 +6,7 @@
     ./mango
     ./mpv
     ./neovim
+    ./nh
     ./shell
     ./udiskie
     ./wezterm

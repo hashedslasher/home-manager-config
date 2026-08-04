@@ -38,6 +38,7 @@
     pkgs.whipper
     pkgs.carla
     pkgs.kid3
+    pkgs.metronome
   ];
 
   xdg.configFile."rmpc".source =

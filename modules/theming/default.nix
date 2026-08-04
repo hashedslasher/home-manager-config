@@ -1,14 +1,9 @@
-{ config, pkgs-unstable, ... }:
+{ config, pkgs-unstable, pkgs-stable, ... }:
 {
   home.packages = [
-    pkgs-unstable.dracula-theme
-    pkgs-unstable.dracula-icon-theme
-    pkgs-unstable.arc-theme
-    pkgs-unstable.arc-icon-theme
     pkgs-unstable.catppuccin-cursors
-    pkgs-unstable.banana-cursor
     pkgs-unstable.bibata-cursors
-    pkgs-unstable.gruvbox-material-gtk-theme
+    pkgs-stable.gruvbox-material-gtk-theme
   ];
 
   home.persistence = {

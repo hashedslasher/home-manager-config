@@ -37,7 +37,7 @@
             installPhase = ''
                             mkdir -p $out/bin
 
-                            makeWrapper ${final.wineWowPackages.stable}/bin/wine \
+                            makeWrapper ${final.wineWow64Packages.base}/bin/wine \
                               $out/bin/ltspice \
                               --set WINEARCH win64 \
                               --set LTSPICE_MSI ${msi} \

@@ -91,6 +91,7 @@
     pkgs.winetricks
     pkgs.nwg-look
     pkgs.xournalpp
+    pkgs.RadarOmega
   ];
 
   home.persistence = {

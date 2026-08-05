@@ -51,6 +51,7 @@
       
       ".config/guitarix"
       ".config/qbz"
+      ".config/feedback-desktop"
       ];
       file = [
         ".cache/mpd/db"

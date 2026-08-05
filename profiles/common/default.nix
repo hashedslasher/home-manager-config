@@ -39,6 +39,7 @@
     pkgs.bitwarden-desktop
     pkgs.rsync
     pkgs.p7zip
+    pkgs.RadarOmega
   ];
   
   home.persistence.link = {
@@ -49,6 +50,7 @@
       
       ".config/Bitwarden"
       ".config/system"
+      ".config/RadarOmega"
       
       ".local/share/autojump"
       ".local/state/wireplumber"

@@ -11,6 +11,7 @@
 
 {
 
+  # imports = [ (import ./import-tree ./modules) ];
   imports = [
     ../../apps
     ../../modules/gaming
@@ -83,6 +84,7 @@
     pkgs.foliate
     pkgs-stable.spyder
     inputs.zennotes.packages.${pkgs.system}.default
+    pkgs.slack
     #Utils
     pkgs.qjackctl
     pkgs.swh_lv2

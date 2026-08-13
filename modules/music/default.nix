@@ -32,7 +32,6 @@
   home.packages = [
     pkgs.rmpc
     pkgs.guitarix
-    pkgs.qbz
     pkgs.audacity
     pkgs.spek
     pkgs.whipper

@@ -31,6 +31,7 @@
     "electron-39.8.10"
   ];
 
+
   programs.autojump.enable = true;
 
   home.packages = [

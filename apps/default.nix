@@ -7,6 +7,7 @@
     ./mpv
     ./neovim
     ./nh
+    ./qbz
     ./shell
     ./udiskie
     ./wezterm

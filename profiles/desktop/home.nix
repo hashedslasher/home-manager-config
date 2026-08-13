@@ -72,7 +72,7 @@
     pkgs.digital
     pkgs.discord
     pkgs.supercell-wx
-    pkgs.sweethome3d.application
+    pkgs-stable.sweethome3d.application
 
     pkgs.rnote
     pkgs.inkscape

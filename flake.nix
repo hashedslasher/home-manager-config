@@ -32,7 +32,7 @@
     };
 
     zennotes = {
-      url = "github:ZenNotes/zennotes/v2.13.2";
+      url = "github:ZenNotes/zennotes";
     };
 
     RadarOmega.url = ./pkgs/RadarOmega;
@@ -67,6 +67,7 @@
 
         (import ./overlays/rmpc.nix)
         (import ./overlays/spyder.nix)
+        (import ./overlays/zennotes.nix)
       ];
 
       pkgs-stable = import nixpkgs {

@@ -71,7 +71,7 @@
     #Apps
     pkgs.digital
     pkgs.discord
-    pkgs.supercell-wx
+    pkgs-stable.supercell-wx
     pkgs.sweethome3d.application
 
     pkgs.rnote
@@ -92,7 +92,6 @@
     pkgs.wineWow64Packages.base
     pkgs.winetricks
     pkgs.nwg-look
-    pkgs.xournalpp
   ];
 
   home.persistence = {

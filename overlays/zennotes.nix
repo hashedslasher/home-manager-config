@@ -1,7 +1,7 @@
 final: prev: {
  # Replace 'zennotes' with the actual package name if it differs 
  # (e.g., it might be prev.zennotes-desktop)
- zennotes = prev.zennotes-desktop.overrideAttrs (oldAttrs: {
+ zennotes = prev.zennotes.overrideAttrs (oldAttrs: {
    
    # Ensure makeWrapper is available during the build
    nativeBuildInputs = (oldAttrs.nativeBuildInputs or []) ++ [ prev.makeWrapper ];

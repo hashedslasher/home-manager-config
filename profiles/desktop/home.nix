@@ -83,7 +83,7 @@
     pkgs.matlab
     pkgs.foliate
     pkgs-stable.spyder
-    inputs.zennotes.packages.${pkgs.system}.default
+    pkgs.zennotes-desktop
     pkgs.slack
     #Utils
     pkgs.qjackctl

@@ -125,6 +125,7 @@
       ".config/BraveSoftware/Brave-Origin-Nightly"
       ".config/dconf"
       ".config/xournalpp"
+      ".config/openrazer"
 
       ".cache/com.github.johnfactotum.Foliate"
       

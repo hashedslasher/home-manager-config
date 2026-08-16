@@ -31,9 +31,6 @@
       url = "github:mierak/rmpc/master";
     };
 
-    zennotes = {
-      url = "github:ZenNotes/zennotes";
-    };
 
     RadarOmega.url = ./pkgs/RadarOmega;
     LTspice.url = ./pkgs/LTspice;
@@ -67,7 +64,6 @@
 
         (import ./overlays/rmpc.nix)
         (import ./overlays/spyder.nix)
-        (import ./overlays/zennotes.nix)
       ];
 
       pkgs-stable = import nixpkgs {

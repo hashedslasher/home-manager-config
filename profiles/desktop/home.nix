@@ -85,6 +85,7 @@
     pkgs-stable.spyder
     pkgs.zennotes-desktop
     pkgs.slack
+    pkgs.gimp
     #Utils
     pkgs.qjackctl
     pkgs.swh_lv2

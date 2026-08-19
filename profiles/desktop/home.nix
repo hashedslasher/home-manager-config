@@ -45,6 +45,7 @@
       "scripts"
       "videos"
       "notes"
+      "cad"
     ];
   };
 

@@ -10,8 +10,8 @@
     enable = true;
     onSteamRunning = "force-close";
     apps = {
-      mx-bikes = {
-        id = 655500;
+      id."655500" = {
+        name = "Mx Bikes";
         launchOptions = {
           wrappers = [
             "PROTON_ENABLE_WAYLAND=1"

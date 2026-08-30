@@ -87,6 +87,7 @@
     pkgs.zennotes-desktop
     pkgs.slack
     pkgs.gimp
+    pkgs.freecad
     #Utils
     pkgs.qjackctl
     pkgs.swh_lv2

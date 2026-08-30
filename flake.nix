@@ -64,6 +64,7 @@
 
         (import ./overlays/rmpc.nix)
         (import ./overlays/spyder.nix)
+        (import ./overlays/foliate.nix)
       ];
 
       pkgs-stable = import nixpkgs {

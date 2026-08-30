@@ -95,6 +95,17 @@
           };
         };
 
+        laptop = home-manager-unstable.lib.homeManagerConfiguration {
+          pkgs = pkgs-stable;
+          modules = [
+            ./profiles/laptop/home.nix
+            steamModule
+          ];
+          extraSpecialArgs = {
+            inherit pkgs-unstable pkgs-stable inputs;
+          };
+        };
+
         server = home-manager.lib.homeManagerConfiguration {
           pkgs = pkgs-stable;
           modules = [

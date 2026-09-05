@@ -125,7 +125,7 @@
       ".config/kicad"
       ".config/Mullvad VPN"
       ".config/xfce4/xfconf/xfce-perchannel-xml"
-      ".config/BraveSoftware/Brave-Origin-Nightly"
+      ".config/BraveSoftware/Brave-Origin"
       ".config/dconf"
       ".config/xournalpp"
       ".config/openrazer"

@@ -85,7 +85,6 @@
     pkgs.foliate
     pkgs-stable.spyder
     pkgs.zennotes-desktop
-    pkgs.slack
     pkgs.gimp
     pkgs.freecad
     #Utils
@@ -95,6 +94,7 @@
     pkgs.wineWow64Packages.base
     pkgs.winetricks
     pkgs.nwg-look
+    pkgs.firefox
   ];
 
   home.persistence = {

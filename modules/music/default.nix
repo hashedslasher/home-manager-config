@@ -30,8 +30,8 @@
 #  };
 
   home.packages = [
-    pkgs.rmpc
     pkgs.guitarix
+    pkgs.rufin
     pkgs.audacity
     pkgs.spek
     pkgs.whipper
@@ -39,9 +39,6 @@
     pkgs.kid3
     pkgs.gmetronome
   ];
-
-  xdg.configFile."rmpc".source =
-    config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/.config/home-manager/modules/music/rmpc";
 
   home.persistence = {
     link = {
@@ -51,6 +48,7 @@
       ".config/guitarix"
       ".config/qbz"
       ".config/feedback-desktop"
+      ".config/rufin"
       ];
       file = [
         ".cache/mpd/db"

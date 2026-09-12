@@ -27,11 +27,6 @@
       inputs.nixpkgs.follows = "nixpkgs-unstable";
     };
 
-    rmpc = {
-      url = "github:mierak/rmpc/master";
-    };
-
-
     RadarOmega.url = ./pkgs/RadarOmega;
     LTspice.url = ./pkgs/LTspice;
     feedBack.url = ./pkgs/feedBack;
@@ -46,7 +41,6 @@
       home-manager-unstable,
       nix-matlab,
       steam-config-nix,
-      rmpc,
       LTspice,
       RadarOmega,
       feedBack,
@@ -62,7 +56,6 @@
         LTspice.overlays.default
         feedBack.overlays.default
 
-        (import ./overlays/rmpc.nix)
         (import ./overlays/spyder.nix)
         (import ./overlays/foliate.nix)
       ];

@@ -43,12 +43,11 @@
   home.persistence = {
     link = {
       dir = [
-      ".local/share/qbz"
-      
       ".config/guitarix"
       ".config/qbz"
       ".config/feedback-desktop"
       ".config/rufin"
+      ".local/share/rufin"
       ];
       file = [
         ".cache/mpd/db"

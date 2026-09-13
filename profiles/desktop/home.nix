@@ -14,9 +14,7 @@
   # imports = [ (import ./import-tree ./modules) ];
   imports = [
     ../../apps
-    ../../modules/gaming
     ../../modules/homelinks
-    ../../modules/music
     ../../modules/impermanence
     ../common
   ];
@@ -59,6 +57,7 @@
       gui.enable = true;
     };
     nh.enable = true;
+    qbz.enable = true;
     udiskie.enable = true;
     wezterm.enable = true;
     zathura.enable = true;
@@ -86,7 +85,7 @@
     pkgs-stable.spyder
     pkgs.zennotes-desktop
     pkgs.gimp
-    pkgs.freecad
+    pkgs-stable.freecad
     #Utils
     pkgs.qjackctl
     pkgs.swh_lv2

@@ -9,7 +9,7 @@ vim.g.mapleader = ' '
 --Tree
 keymap.set('n', '<leader>t', ':NvimTreeToggle<CR>', opt)
 --Toggleterm
-keymap.set('n', '<C-/>', ':ToggleTerm<CR>', opt)
+--keymap.set('n', '<C-/>', ':ToggleTerm<CR>', opt)
 
 --Navigation
 keymap.set('n', '<C-h>', '<C-w>h', opt)

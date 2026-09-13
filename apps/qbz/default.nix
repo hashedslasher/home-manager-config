@@ -26,6 +26,13 @@
       }
     ]
     '';
+    home.persistence = {
+      link = {
+        dir = [
+        ".local/share/qbz"
+        ];
+      };
+    };
   };
 }
 

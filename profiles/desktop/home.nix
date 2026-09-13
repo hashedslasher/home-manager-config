@@ -14,6 +14,8 @@
   # imports = [ (import ./import-tree ./modules) ];
   imports = [
     ../../apps
+    ../../modules/gaming
+    ../../modules/music
     ../../modules/homelinks
     ../../modules/impermanence
     ../common

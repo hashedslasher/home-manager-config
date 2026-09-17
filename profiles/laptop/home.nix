@@ -14,9 +14,9 @@
   # imports = [ (import ./import-tree ./modules) ];
   imports = [
     ../../apps
-    ../../modules/gaming
-    ../../modules/homelinks
-    ../../modules/music
+    #../../modules/gaming
+    #../../modules/homelinks
+    #../../modules/music
     ../../modules/impermanence
     ../common
   ];
@@ -28,26 +28,26 @@
     enable = true;
   };
 
-  homelinks = {
-    enable = false;
+  #homelinks = {
+  #  enable = false;
 
-    drive = "/mnt/tsb-2tb";
+  #  drive = "/mnt/tsb-2tb";
 
-    dirs = [
-      "app-data"
-      "apps"
-      "documents"
-      "media"
-      "music"
-      "pictures"
-      "projects"
-      "school"
-      "scripts"
-      "videos"
-      "notes"
-      "cad"
-    ];
-  };
+  #  dirs = [
+  #    "app-data"
+  #    "apps"
+  #    "documents"
+  #    "media"
+  #    "music"
+  #    "pictures"
+  #    "projects"
+  #    "school"
+  #    "scripts"
+  #    "videos"
+  #    "notes"
+  #    "cad"
+  #  ];
+  #};
 
   apps = {
     btop.enable = true;
@@ -75,7 +75,7 @@
 
     pkgs.freetube
     pkgs.foliate
-    pkgs.zennotes-desktop
+    pkgs-unstable.zennotes-desktop
     #Utils
     pkgs.fastfetch
     pkgs.wineWow64Packages.base

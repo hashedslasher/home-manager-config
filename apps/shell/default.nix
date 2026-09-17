@@ -60,6 +60,7 @@ in
         enable = true;
         enableZshIntegration = true;
         enableBashIntegration = true;
+        package = pkgs-unstable.fzf;
       };
       
       home.packages = with pkgs; [ 

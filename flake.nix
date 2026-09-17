@@ -2,13 +2,13 @@
   description = "home-manager flake";
 
   inputs = {
-    nixpkgs.url = "nixpkgs/nixos-25.05";
+    nixpkgs.url = "nixpkgs/nixos-26.05";
     nixpkgs-unstable.url = "nixpkgs/nixos-unstable";
 
     flake-utils.url = "github:numtide/flake-utils";
 
     home-manager = {
-      url = "github:nix-community/home-manager/release-25.05";
+      url = "github:nix-community/home-manager/release-26.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -88,7 +88,7 @@
           };
         };
 
-        laptop = home-manager-unstable.lib.homeManagerConfiguration {
+        laptop = home-manager.lib.homeManagerConfiguration {
           pkgs = pkgs-stable;
           modules = [
             ./profiles/laptop/home.nix

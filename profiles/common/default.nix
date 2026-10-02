@@ -41,6 +41,7 @@
     pkgs.rsync
     pkgs.p7zip
     pkgs.RadarOmega
+    pkgs.pix
   ];
   
   home.persistence.link = {

@@ -32,7 +32,7 @@
   home.packages = [
     pkgs.guitarix
     pkgs.rufin
-    pkgs.audacity
+    pkgs-stable.audacity
     pkgs.spek
     pkgs.whipper
     pkgs.carla

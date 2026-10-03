@@ -13,7 +13,7 @@
   };
   config = lib.mkIf config.apps.nh.enable {
     home.packages = [
-      pkgs.qbz
+      pkgs-stable.qbz
     ];
     xdg.configFile."pipewire/client.conf.d/99-qbz-bitperfect-ii.conf".text = ''
     stream.rules = [

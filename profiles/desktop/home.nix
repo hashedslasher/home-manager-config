@@ -77,6 +77,7 @@
     pkgs.sweethome3d.application
 
     pkgs.rnote
+    pkgs.wofi
     pkgs.inkscape
     pkgs.blender
     pkgs.freetube

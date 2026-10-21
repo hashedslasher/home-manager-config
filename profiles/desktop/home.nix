@@ -75,6 +75,7 @@
     pkgs.discord
     pkgs-stable.supercell-wx
     pkgs.sweethome3d.application
+    pkgs.qelectrotech
 
     pkgs.rnote
     pkgs.wofi

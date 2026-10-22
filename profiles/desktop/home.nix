@@ -119,6 +119,7 @@
       ".local/share/Supercell Wx"
       ".local/share/com.github.johnfactotum.Foliate"
       ".local/share/matlab"
+      ".local/share/QElectroTech"
 
 
       ".config/blender"

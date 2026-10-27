@@ -14,7 +14,7 @@
   home.packages = [
     pkgs.prismlauncher
     pkgs-stable.rpcs3
-    (pkgs.retroarch.withCores (cores: with cores; [ dolphin ]))
+    (pkgs.retroarch.withCores (cores: with cores; [mesen dolphin ]))
     pkgs.feedback-desktop
   ];
 

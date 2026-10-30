@@ -13,9 +13,9 @@
   config = lib.mkIf config.apps.git.enable {
     programs.git = {
       enable = true;
-      userName = "layton";
-      userEmail = "layton.ab10@gmail.com";
-      extraConfig = {
+      settings = {
+        user.name = "layton";
+        user.email = "layton.ab10@gmail.com";
         init.defaultBranch = "main";
         safe.directory = "/etc/nixos";
       };
